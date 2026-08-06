@@ -1,0 +1,1 @@
+import"./rolldown-runtime-hePW80VL.js";import{i as e,o as t}from"./StoryThemeContext-De5ZWJ_M.js";t();var n=e(),r=e=>(0,n.jsx)(`svg`,{xmlns:`http://www.w3.org/2000/svg`,viewBox:`0 0 24 24`,fill:`none`,stroke:`currentColor`,strokeWidth:1.5,...e,children:(0,n.jsx)(`circle`,{cx:12,cy:12,r:9})});export{r as t};

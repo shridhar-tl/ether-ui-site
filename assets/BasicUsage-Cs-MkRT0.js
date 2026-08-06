@@ -1,0 +1,3 @@
+import"./rolldown-runtime-hePW80VL.js";import{i as e,o as t}from"./StoryThemeContext-De5ZWJ_M.js";import{E as n}from"../index.BXfAFPWO.js";import{t as r}from"./CodeBlock-C1PblznF.js";import{t as i}from"./ComponentDemo-C0Y_0jmn.js";t();var a=e(),o=`import { Button } from 'fluxo-ui';
+
+<Button onClick={() => console.log('Clicked!')}>Click me</Button>`,s=()=>(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(i,{title:`Default Button`,children:(0,a.jsx)(n,{onClick:()=>alert(`Clicked!`),children:`Click me`})}),(0,a.jsx)(`div`,{className:`mt-4`,children:(0,a.jsx)(r,{title:`Basic Example`,code:o})})]});export{s as default};

@@ -1,0 +1,1 @@
+import{r as e}from"./rolldown-runtime-hePW80VL.js";import{o as t}from"./StoryThemeContext-De5ZWJ_M.js";var n=e(t(),1),r=(e,t=!0)=>{let r=(0,n.useRef)(e);r.current=e,(0,n.useEffect)(()=>{if(!t)return;let e=e=>{let t=r.current[e.key];t&&(e.preventDefault(),t())};return document.addEventListener(`keydown`,e),()=>document.removeEventListener(`keydown`,e)},[t])};export{r as t};

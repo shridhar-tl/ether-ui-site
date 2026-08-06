@@ -1,0 +1,6 @@
+import{r as e}from"./rolldown-runtime-hePW80VL.js";import{i as t,o as n}from"./StoryThemeContext-De5ZWJ_M.js";import{n as r,t as i}from"./Password-CjLj7OBk.js";import{t as a}from"./CodeBlock-C1PblznF.js";import{t as o}from"./ComponentDemo-C0Y_0jmn.js";var s=e(n(),1),c=t(),l=`import { PasswordStrengthMeter } from 'fluxo-ui';
+
+const [pw, setPw] = useState('');
+
+<Password value={pw} onChange={(e) => setPw(e.value)} placeholder="Enter password" />
+<PasswordStrengthMeter value={pw} />`,u=()=>{let[e,t]=(0,s.useState)(``);return(0,c.jsxs)(c.Fragment,{children:[(0,c.jsx)(o,{title:`Default Strength Meter`,description:`Type to see live tier and tip updates.`,children:(0,c.jsxs)(`div`,{style:{width:`100%`,maxWidth:420,display:`flex`,flexDirection:`column`,gap:12},children:[(0,c.jsx)(i,{value:e,onChange:e=>t(e.value),placeholder:`Enter a password`,autoComplete:`new-password`}),(0,c.jsx)(r,{value:e})]})}),(0,c.jsx)(`div`,{className:`mt-4`,children:(0,c.jsx)(a,{code:l,language:`tsx`})})]})};export{u as default};
