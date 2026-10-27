@@ -1,0 +1,1 @@
+import{r as e}from"./rolldown-runtime-XKyaHtl9.js";import{o as t}from"./StoryThemeContext-D_RQ2m_6.js";var n=e(t(),1),r=(e,t,r=!0)=>{(0,n.useEffect)(()=>{if(!r||!e)return;let n=n=>{e.current&&!e.current.contains(n.target)&&t(n)};return document.addEventListener(`mousedown`,n),()=>document.removeEventListener(`mousedown`,n)},[e,t,r])};export{r as t};
