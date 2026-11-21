@@ -1,0 +1,1 @@
+import{l as e,o as t}from"./StoryThemeContext-BDzcJQOV.js";import{n}from"./layer-stack-C3mtl44q.js";var r=e(t(),1),i=(e,t)=>{let i=(0,r.useRef)(t);i.current=t,(0,r.useEffect)(()=>{if(e)return n(i)},[e])};export{i as t};

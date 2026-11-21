@@ -1,0 +1,1 @@
+import{i as e,o as t}from"./StoryThemeContext-BDzcJQOV.js";t();var n=e(),r=e=>(0,n.jsxs)(`svg`,{width:24,height:24,viewBox:`0 0 24 24`,fill:`none`,stroke:`currentColor`,strokeWidth:2,strokeLinecap:`round`,strokeLinejoin:`round`,...e,children:[(0,n.jsx)(`path`,{d:`m3,6 18,0`}),(0,n.jsx)(`path`,{d:`m6,12 12,0`}),(0,n.jsx)(`path`,{d:`m10,18 8,0`})]});export{r as t};
