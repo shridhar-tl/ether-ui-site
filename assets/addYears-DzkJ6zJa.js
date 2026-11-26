@@ -1,0 +1,1 @@
+import{C as e}from"./format-BMXWqF5Q.js";function t(t,n,r){return e(t,n*12,r)}export{t};

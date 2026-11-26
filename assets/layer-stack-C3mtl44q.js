@@ -1,0 +1,1 @@
+var e=[],t=!1,n=t=>{if(t.key!==`Escape`||t.defaultPrevented||t.isComposing)return;let n=e[e.length-1];n&&(t.preventDefault(),t.stopImmediatePropagation(),n.onEscape.current?.())},r=r=>{!t&&typeof document<`u`&&(document.addEventListener(`keydown`,n),t=!0);let i={onEscape:r};return e.push(i),()=>{let t=e.indexOf(i);t>=0&&e.splice(t,1)}},i=()=>e.length>0;export{r as n,i as t};

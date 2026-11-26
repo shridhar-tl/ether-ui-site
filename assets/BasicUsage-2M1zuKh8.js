@@ -1,0 +1,9 @@
+import{i as e,l as t,o as n}from"./StoryThemeContext-BDzcJQOV.js";import{t as r}from"./ColorPicker-DqM4KlDd.js";import{t as i}from"./CodeBlock-CjEfE45a.js";import{t as a}from"./ComponentDemo-C1QcOIEH.js";var o=t(n(),1),s=e(),c=`import { ColorPicker } from 'fluxo-ui';
+
+const [color, setColor] = useState('#3b82f6');
+
+<ColorPicker value={color} onChange={setColor} />
+
+<ColorPicker defaultValue="#22c55e" />
+
+<ColorPicker defaultValue="#f43f5e" showAlpha={false} />`,l=()=>{let[e,t]=(0,o.useState)(`#3b82f6`);return(0,s.jsxs)(s.Fragment,{children:[(0,s.jsx)(a,{title:`Default Color Picker`,description:`Click the trigger to open the picker. Supports hex, RGB, and alpha editing.`,children:(0,s.jsxs)(`div`,{className:`space-y-6`,children:[(0,s.jsxs)(`div`,{children:[(0,s.jsxs)(`div`,{className:`text-sm mb-2 opacity-70`,children:[`Controlled (`,e,`)`]}),(0,s.jsx)(r,{value:e,onChange:e=>t(e)})]}),(0,s.jsxs)(`div`,{children:[(0,s.jsx)(`div`,{className:`text-sm mb-2 opacity-70`,children:`Uncontrolled`}),(0,s.jsx)(r,{defaultValue:`#22c55e`})]}),(0,s.jsxs)(`div`,{children:[(0,s.jsx)(`div`,{className:`text-sm mb-2 opacity-70`,children:`No alpha channel`}),(0,s.jsx)(r,{defaultValue:`#f43f5e`,showAlpha:!1})]}),(0,s.jsxs)(`div`,{children:[(0,s.jsx)(`div`,{className:`text-sm mb-2 opacity-70`,children:`Editable (type a hex code)`}),(0,s.jsx)(r,{variant:`input`,editable:!0,defaultValue:`#8b5cf6`})]}),(0,s.jsxs)(`div`,{children:[(0,s.jsx)(`div`,{className:`text-sm mb-2 opacity-70`,children:`Disabled`}),(0,s.jsx)(r,{defaultValue:`#6366f1`,disabled:!0})]})]})}),(0,s.jsx)(`div`,{className:`mt-4`,children:(0,s.jsx)(i,{code:c,language:`tsx`})})]})};export{l as default};

@@ -1,0 +1,1 @@
+import{i as e,l as t,o as n}from"./StoryThemeContext-BDzcJQOV.js";var r=t(n(),1),i=e(),a=e=>typeof e==`function`||typeof e==`object`&&!!e&&!r.isValidElement(e)&&`$$typeof`in e,o=(e,t)=>e==null||e===!1||e===!0?null:a(e)?(0,i.jsx)(`span`,{className:t,"aria-hidden":`true`,children:(0,i.jsx)(e,{})}):(0,i.jsx)(`span`,{className:t,"aria-hidden":`true`,children:e});export{o as t};

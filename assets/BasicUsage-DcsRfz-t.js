@@ -1,0 +1,3 @@
+import{i as e,o as t}from"./StoryThemeContext-BDzcJQOV.js";import{a as n}from"../index.DKPR-e6n.js";import{t as r}from"./CodeBlock-CjEfE45a.js";import{t as i}from"./ComponentDemo-C1QcOIEH.js";t();var a=e(),o=`import { Button } from 'fluxo-ui';
+
+<Button onClick={() => console.log('Clicked!')}>Click me</Button>`,s=()=>(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(i,{title:`Default Button`,children:(0,a.jsx)(n,{onClick:()=>alert(`Clicked!`),children:`Click me`})}),(0,a.jsx)(`div`,{className:`mt-4`,children:(0,a.jsx)(r,{title:`Basic Example`,code:o})})]});export{s as default};

@@ -1,0 +1,9 @@
+import{i as e,o as t}from"./StoryThemeContext-BDzcJQOV.js";import{t as n}from"./announcement-DrkWsYu8.js";import{t as r}from"./send-K1bFyAEW.js";import{t as i}from"./settings-Curd3rXP.js";import{t as a}from"./Avatar-B_dspIBk.js";import{t as o}from"./Badge-BJ3GV5FO.js";import{a as s}from"../index.DKPR-e6n.js";import{t as c}from"./CodeBlock-CjEfE45a.js";import{t as l}from"./ComponentDemo-C1QcOIEH.js";t();var u=e(),d=`import { Badge } from 'fluxo-ui';
+
+<Badge count={5} ariaLabel="5 unread notifications">
+    <Button leftIcon={AnnouncementIcon} layout="outlined" ariaLabel="Notifications" />
+</Badge>
+
+<Badge dot color="success" overlap="circular" ariaLabel="Online">
+    <Avatar name="Ava Chen" />
+</Badge>`,f=()=>(0,u.jsxs)(u.Fragment,{children:[(0,u.jsx)(l,{title:`Anchored Badges`,description:`Wrap any element to attach a count, dot or icon to its corner.`,children:(0,u.jsxs)(`div`,{style:{display:`flex`,flexWrap:`wrap`,alignItems:`center`,gap:`2rem`},children:[(0,u.jsx)(o,{count:5,ariaLabel:`5 unread notifications`,children:(0,u.jsx)(s,{leftIcon:n,layout:`outlined`,ariaLabel:`Notifications`})}),(0,u.jsx)(o,{count:128,color:`primary`,ariaLabel:`More than 99 messages`,children:(0,u.jsx)(s,{leftIcon:r,layout:`outlined`,ariaLabel:`Messages`})}),(0,u.jsx)(o,{dot:!0,color:`warning`,ariaLabel:`Updates available`,children:(0,u.jsx)(s,{leftIcon:i,layout:`outlined`,ariaLabel:`Settings`})}),(0,u.jsx)(o,{dot:!0,color:`success`,overlap:`circular`,ariaLabel:`Online`,children:(0,u.jsx)(a,{name:`Ava Chen`})})]})}),(0,u.jsx)(`div`,{className:`mt-4`,children:(0,u.jsx)(c,{code:d,language:`tsx`})})]});export{f as default};

@@ -1,0 +1,6 @@
+import{i as e,o as t}from"./StoryThemeContext-BDzcJQOV.js";import{t as n}from"./Avatar-B_dspIBk.js";import{t as r}from"./CodeBlock-CjEfE45a.js";import{t as i}from"./ComponentDemo-C1QcOIEH.js";t();var a=e(),o=`import { Avatar } from 'fluxo-ui';
+
+<Avatar src="https://i.pravatar.cc/120?u=jane" alt="Jane Doe" />
+<Avatar name="Jane Doe" />
+<Avatar name="Marcus" status="online" />
+<Avatar name="Anna" status="busy" shape="rounded" />`,s=()=>(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(i,{title:`Default Avatar`,description:`Image, initials, and icon fallbacks with optional status dot.`,children:(0,a.jsxs)(`div`,{style:{display:`flex`,gap:16,flexWrap:`wrap`,alignItems:`center`,justifyContent:`center`},children:[(0,a.jsx)(n,{src:`https://i.pravatar.cc/120?u=jane`,alt:`Jane Doe`}),(0,a.jsx)(n,{name:`Jane Doe`}),(0,a.jsx)(n,{name:`Marcus Lopez`,status:`online`}),(0,a.jsx)(n,{name:`Anna Kim`,status:`busy`,shape:`rounded`}),(0,a.jsx)(n,{name:`Olivia Park`,status:`away`,shape:`square`}),(0,a.jsx)(n,{})]})}),(0,a.jsx)(`div`,{className:`mt-4`,children:(0,a.jsx)(r,{code:o,language:`tsx`})})]});export{s as default};

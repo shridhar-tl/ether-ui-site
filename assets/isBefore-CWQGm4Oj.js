@@ -1,0 +1,1 @@
+import{T as e}from"./format-BMXWqF5Q.js";function t(t,n){return+e(t)<+e(n)}export{t};
